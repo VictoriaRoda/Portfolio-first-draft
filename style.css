@@ -1,0 +1,41 @@
+
+header, footer, h1, h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 26px;
+}
+p, ol, ul, li {
+  font-size: 20px;
+}
+.border-box {
+  margin: 25px 150px;
+  box-sizing:border-box;
+  border:50px solid #f77f00;
+  background:#ffc857;
+  padding: 15px;
+}
+hr {
+  height: 4px;
+  background-color: #1E1A1D;
+  border: 2px;
+}
+html {
+  background-color:#457b9d;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#1E1A1D;
+}
+a :link {
+  color: blue;
+}
+a :visited {
+  color: purple;
+}
+
+
