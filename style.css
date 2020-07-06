@@ -26,5 +26,10 @@ hr {
 html {
   background-color:#457b9d;
 }
-
+a :link {
+  color: blue;
+}
+a :visited {
+  color: purple;
+}
 
