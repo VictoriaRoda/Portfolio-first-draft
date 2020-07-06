@@ -1,12 +1,15 @@
-h1, h2, h3 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:#1E1A1D;
-}
+
 header, footer, h1, h2 {
   text-align: center;
 }
 h1 {
   font-size: 56px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 26px;
 }
 p, ol, ul, li {
   font-size: 20px;
@@ -25,6 +28,8 @@ hr {
 }
 html {
   background-color:#457b9d;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#1E1A1D;
 }
 a :link {
   color: blue;
@@ -32,4 +37,3 @@ a :link {
 a :visited {
   color: purple;
 }
-
