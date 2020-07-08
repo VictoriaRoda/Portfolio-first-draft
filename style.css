@@ -41,4 +41,8 @@ a :visited {
   color: purple;
 }
 
+a :onclick {
+  target="_blank";
+}
+
 
