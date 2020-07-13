@@ -3,63 +3,188 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Victoria Roda Portfolio</title>
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body  class = "border-box">
+  <body>
     <header>
-        <h1>Victoria Roda</h1> 
       <div>
-        <img src = "profile.jpg" width="200" alt = "Victoria Roda Profile Picture">
+        <h1>Victoria Roda</h1>
       </div>
+      <nav>
+			<ul id="menu">
+				<li><a href="/">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
     </header>
+
     <main>
       <div>
-        <header>
-          <!--Introduction of Me!-->
-          <h2>Welcome! I am Victoria.</h2>
-            <p>I am a student web developer in Beverly, MA. 
-            </p>
-        </header>
-      </div>
-      <div>
-        <!--Here is the short story of how I found web development-->
-        <p>
-          While working as a bookkeeper for a small company, I was lucky enough to get the opportunity to learn a bit of code to maintain a website. I was instantly hooked and wanted to dig deeper.
-        </p>
-        <p>I found out that:
-          <ol>
-            <li>It is just as creative as it is technical.</li>
-            <li>There is always something new to learn.</li>
-            <li>And there is a community of developers that support each other.</li>
-          </ol>
-      </div>
-      <hr>
-      <div>
-        <header>
-          <!--There are other things I like to do when I am not studying-->
-          <h2>Other Interests</h2>
-        </header>
-        <ul>
-          <li>Going mobile in a campervan. I wold like to design my own one day.</li>
-          <li>Using my sewing maching to make decorative pillows and tote bags.</li>
-          <li>Hanging with my dog, Bo! He keeps me busy.</li>
-        </ul>
+        <section class="wrapper">
+          <article id="home">
+            <div class="group">
+              <div class="item-double">
+                <h2>Let me introduce myself...</h2>
+                <p>
+                  About seven years ago, I was working as an office manager for a small company. On my first day, I was given the task of building the company website. I was pumped!
+                </p>
+                <p>
+                  I had never done this before, but always thought it was the coolest skill to have. I started learning with a template. Before I knew it, I was customizing with shortcode. And I was hooked! 
+                </p>
+                <p>
+                  Web developement became an obvious career change for me. There is always new languages and techniques to learn. Plus, there is this amazing community of developers that collaborate in support of making the industry better.
+                </p>
+                <p>
+                  If you want to learn more about me, you can see my <a href="#projects">currrent projects</a>, <a href="#services">services I offer</a>, and my <a href="#contact">contact</a> information below.
+                </p>
+              </div>
+
+              <div class="item">
+                <img src="images/profile.jpg" width="400" alt="Victoria Roda">
+              </div>
+            </div>
+          </article>
+        </section>
+        <section>
+          <article id="about">
+            <div>
+              <h2>More About Me</h2>
+              <div class="group">
+                <div class="item">
+                  <img src="images/sailing_profile.jpg" width="400" alt="Victoria Sailing">
+                </div>
+
+                <div class="item-double">
+                  <p>
+                    For the last 20 years, I have worked as a bookkeeper and office manager for small companies. My experience has been in a range of industries including software, self-storage, HVAC & plumbing, hospitality and architecture. This broad experience has allowed me to develop a diverse skill set, adaptability, and an objective professional prespective.
+                  </p>
+                  <p>
+                    Offering web development services will be a great addition to my skill set. It allows me to be creative with the user in mind. I will be able to help small business drive business to their website and streamline the process of gathering market information and utilizing that data to better serve the customer.  
+                  </p>
+                  <p>
+                     When I am not studying or hanging out with my pup, you can find me spending time outdoors, practicing yoga, and working on side gigs. A recent project that I have begun with my best friend is Stone Velvet Bag Co. We are working on some great tote bag designs. Check back soon for an update on our styles for the upcoming holiday season!
+                  </p>                  
+                </div>             
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="wrapper">
+          <article id="projects">
+            <h2>Personal Projects</h2>
+            <div class="group">
+              <div class="item content-box">
+                <h3>Stone Velvet Bag Co.</h3>
+                <img src="images/coming_soon.jpg" width="150" alt="Coming Soon">
+                <p>
+                  Stone Velvet Bag Co. is a side project that I am just getting started with my best friend Kendra. Stay tuned for more information about our bag designs.
+                </p>
+              </div>
+
+              <div class="item content-box">
+                <h3>Application</h3>
+                <img src="images/coming_soon.jpg" width="150" alt="Coming Soon">
+                <p>
+                  Learning to create and application that can solve a problem for the general public has to be the most gratifying accomplishment. Sure, web development is fun on it's own, but to be able to offer an application with the purpose of making everyday life easier just seems so great!
+                </p>
+              </div>
+
+              <div class="item content-box">
+                <h3>Life of a Vagabond</h3>
+                <img src="images/coming_soon.jpg" width="150" alt="Coming Soon">
+                <p>
+                  Ever want to live on the road? I do. I am still in the begining stages of planning. Come back to see my design ideas and let me know what you think.
+                </p>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section>
+          <article id="services">
+            <h2>Professional Services</h2>
+            <div class="group">
+              <div class="item">
+                <h3>Bookkeeping</h3>
+                <ul>
+                  <li>Payroll & benefits</li>
+                  <li>Vendor management</li>
+                  <li>Recievables, payables, etc.</li>
+                  <li>Budgets, costing, & pricing</li>
+                  <li>Account reconciliation</li>
+                </ul>
+              </div>
+              <hr>
+              <div class="item">
+                <h3>Office Support</h3>
+                <ul>
+                  <li>Digital & physical file organization</li>
+                  <li>Streamline operations & process</li>
+                  <li>Implement systems for better communication</li>
+                </ul>
+              </div>
+              <hr>
+              <div class="item">
+                <h3>Hospitality</h3>
+                <ul>
+                  <li>Catering expertise for events including weddings & fundraisers</li>
+                  <li>Adventure and vacation planning</li>
+                  <li>Meal planning and provision deliveries</li>
+                </ul>
+              </div>
+              <hr>
+              <div class="item">
+                <h3>Other Services</h3>
+                <ul>
+                  <li>Dog sitting</li>
+                  <li>Villa/House management</li>
+                  <li><i>COMING SOON!</i>   Web development</li>
+                  <li>Special project? <a href="mailto:victoria.lee.roda@gmail.com">Email me!</a></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </section>
       </div>
     </main>
-    <hr>
+
     <footer>
-      <div>
-        <!--I think there should always be more than one way to contact someone.-->
-        <h2>Contact Me</h2>
-        <p>
-          I am available for bookkeeping and administrative projects.  Feel free to <a href="mailto:victoria.lee.roda@gmail.com"> email me.</a>
-        </p>
-        <h3>If you prefer social media</h3>
-        <a href = "https://www.linkedin.com/in/victoria-roda-8a786b35/">LinkedIn</a>
-        <a href = "https://github.com/VictoriaRoda">GitHub</a>
-      </div> 
+      <article id="contact">
+        <h3>Connect with me</h3>
+        <h4>
+            <a href="mailto:victoria.lee.roda@gmail.com" target="blank">Email Me</a>
+            <a href="https://www.linkedin.com/in/victoria-roda-8a786b35/"target="blank">LinkedIn</a>
+            <a href = "https://github.com/VictoriaRoda" target="blank">GitHub</a>          
+        </h4>
+        <div class="group">
+          <div class="item">
+            <form action="https://formspree.io/victoria.lee.roda@gmail.com" method="post">
+              <label for="first name">First Name:</label>
+              <input id="first name" type="text" name="first name" autofocus="on" required />
+              <br>
+              <label for="last name">Last Name:</label>
+              <input id="last name" type="text" name="last name" required />
+              <br>
+              <label for="email address"> Email Address:</label>
+              <input id="email address" type="text" name="_replyto" required />
+              <br>
+              <label for="form-message">Your Message:</label>
+              <textarea id="form-message" name="message" rows="4" cols="25"></textarea>
+              <br>
+            </form>
+          </div>          
+          <div class="item">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39536.09804020584!2d-70.88377365586926!3d42.56510058119478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e316f4b3534833%3A0x3503f9a0d8236b91!2s238%20Essex%20St%2C%20Beverly%2C%20MA%2001915!5e0!3m2!1sen!2sus!4v1594186345065!5m2!1sen!2sus" width="400" height="300" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </article>
     </footer>
+  
     <script src="script.js"></script>
   </body>
 </html>
